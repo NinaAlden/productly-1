@@ -1,0 +1,239 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+.text {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #544837;
+}
+.whole__page {
+    background-color: white;
+    min-height: 3354px;
+    max-width: 1126px;
+    height: 100vh; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
+    background-color: white;
+    max-height: 78px;
+    max-width: 1111px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 185px;
+    max-height: 32px;
+    width: 100%;
+}
+.nav {
+    margin-left: 47;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.nav>li {
+    margin-left: 38px;
+}
+.nav-appearance {
+    text-decoration-line:none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2F281E;
+}
+.top-btns{
+    max-width: 218px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.button {
+    padding: 14px;
+    max-width: 110px;
+    max-height: 46px;
+    width: 100%;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.SignUp {
+    background-color: #FF9900;
+    border: none;
+    color: #FFFFFF;
+}
+.SignIn {   
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1;
+    border-color: #BCD0E5;
+    color: #173A56;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one {
+   max-width: 1126px; 
+   max-height: 496px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+.img1 {
+    max-height: 496px;
+    max-width: 605px;
+}
+.main-title {
+    max-width: 518px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+.get-started {
+    max-width: 458px;
+    max-height: 95px;
+}
+.page-btn {
+    max-width: 175px;
+    max-height: 53px;
+    width: 100%;
+    padding: 20px;
+    background-color: #FF9900;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.two {
+    max-height: 108px;
+    max-width: 1126px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.three {
+    max-width: 1095px; 
+    max-height: 204px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.four {
+    max-height: 108px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.five {
+    max-width: 1110px; 
+    max-height: 574px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.img2 {
+    max-width: 520px;
+    max-height: 574px;
+}
+.design-professionals {
+    max-width: 486px;
+    max-height: 531px;
+}
+.six {
+    max-width: 1121px; 
+    max-height: 521px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.img3 {
+    max-width: 535px;
+    max-height: 521px;
+}
+.check {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.A {
+    max-width: 430px;
+    max-height: 52px;
+    width: 100%;
+}
+.B, .C {
+    max-width: 450px;
+    max-height: 52px;
+}
+.product-managers {
+    max-width: 486px;
+    max-height: 427px;
+    width: 100%;
+}
+.seven {
+    max-width: 1110px; 
+    max-height: 609px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.img4 {
+    max-width: 542px;
+    max-height: 609px;
+}
+.marketers {
+    max-width: 486px;
+    max-height: 95px;
+}
+
+
