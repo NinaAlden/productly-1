@@ -1,7 +1,7 @@
 body {
-    background-color: whites;
+    background-color: white;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 h3 {
     font-family: 'Poppins', sans-serif;
@@ -60,17 +60,19 @@ h4 {
 .nav {
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
     align-items: center; 
 }
 .nav>li {
     margin-left: 38px;
+    position: relative;
+    right: 39px;
 }
 .nav-appearance {
     text-decoration-line:none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 35px;
     font-size: 14px;
     color: #2F281E;
 }
@@ -78,8 +80,6 @@ h4 {
     max-width: 234px;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -116,6 +116,7 @@ h4 {
     color: #173A56;
 }
 .container {
+    margin:50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -146,10 +147,20 @@ h4 {
 .get-started {
     max-width: 458px;
     max-height: 95px;
+    width: 100%;
+}
+.btn-link-conatiner {
+    position: relative;
+    top: 25px;
+    right: 25px;
+    max-width: 366px;
+    min-height: 53px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .page-btn {
-    position: relative;
-    top: 20px;
     max-width: 175px;
     max-height: 53px;
     width: 100%;
@@ -166,7 +177,20 @@ h4 {
     font-size: 16px;
     color: #FFFFFF;
 }
+.link-design {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9900;
+}
+.link-design-text {
+    text-decoration-line: underline;
+}
 .two {
+    position: relative;
+    bottom: 54px;
     max-height: 108px;
     max-width: 1126px;
     height: 100%;
@@ -181,7 +205,6 @@ h4 {
     text-align: center;
 }
 .three {
-    margin-top: 80px;
     max-width: 1095px; 
     max-height: 204px;
     width: 100%;
@@ -200,6 +223,7 @@ h4 {
 .icon {
     max-width: 50px;
     max-height: 50px;
+    width: 100%;
 }
 .four {
     max-height: 108px;
@@ -208,18 +232,17 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
 }
-.over-title {
-    position: relative;
-    top: 30px;  
-}
-.five {
-    margin-top: 120px;
+.five { 
     max-width: 1110px; 
     max-height: 574px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.over-title {
+    position: relative;
+    top: 30px;  
 }
 .design-professionals {
     max-width: 486px;
@@ -230,7 +253,6 @@ h4 {
     max-height: 574px;
 }
 .six {
-    margin-top: 101px;
     max-width: 1121px; 
     max-height: 521px;
     width: 100%;
@@ -247,8 +269,7 @@ h4 {
     max-height: 427px;
     width: 100%;
 }
-.check {
-    margin: 30px;
+.check-list {
     max-width: 430px;
     max-height: 52px;
     width: 100%;
@@ -262,7 +283,7 @@ h4 {
     bottom: 18px;
 }
 .seven {
-   /* margin-top: 104px;*/
+   /* margin-top: 104px; osäker på om denna är för stor för vad vi får använda*/
     max-width: 1110px; 
     max-height: 609px;
     width: 100%;
@@ -281,30 +302,36 @@ h4 {
     max-height: 609px;
 }
 .line {
-    position: absolute;
+   /* margin-top: 146px; osäker på om denna är för stor för vad vi får använda*/
     width: 1109px;
     height: 1px;
-    left: 160px;
-    top: 3452px;
     background: rgba(188, 208, 229, 0.496913);
 }
 footer {
     max-height: 308px;
-    max-width: 1109px;
+    min-width: 1109px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.first-footer-list {
-    
+.end-logo {
+    position: relative;
+    top: 102px;
 }
-.email-block {
-    max-width: 325px;
-    max-height: 48px;
-    width: 100%;
-    border-color: black;
+.end-links {
+    list-style-type: none;
+    position: relative;
+    top: 167px;
+}
+.sign-up-block {
+    min-height: 301px;
+    min-width: 325px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 .signup-now-btn {
     padding: 8px;
